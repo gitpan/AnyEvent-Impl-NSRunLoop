@@ -3,12 +3,9 @@ abstract: 'AnyEvent adaptor for Cocoa NSRunLoop'
 author:
   - 'Daisuke Murase <typester@cpan.org>'
 build_requires:
-  Devel::PPPort: 3.19
   ExtUtils::MakeMaker: 6.42
-  ExtUtils::ParseXS: 2.21
   Test::More: 0.88
 configure_requires:
-  Devel::PPPort: 3.19
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
 generated_by: 'Module::Install version 1.00'
@@ -24,8 +21,8 @@ no_index:
     - xt
 requires:
   AnyEvent: 5.29
-  XSLoader: 0.1
+  Cocoa::EventLoop: 0
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/typester/AnyEvent-Impl-NSRunLoop.git
-version: 0.03
+version: 0.04
